@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/default_margin"
+    android:clickable="true">
+
+        <RelativeLayout
+            android:id="@+id/llTextContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/rssBackgroundColor"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/small_padding"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/small_padding"
+            android:paddingTop="@dimen/small_padding">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/rssTextColor"
+                android:textSize="@dimen/small_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/PubDateTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleTextView"
+                android:layout_marginTop="@dimen/small_margin"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/rssTextColor"
+                android:textSize="@dimen/smallest_text_size" />
+
+
+        </RelativeLayout>
+
+</LinearLayout>

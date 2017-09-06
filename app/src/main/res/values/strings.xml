@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RealiTest</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="hagai_yehezkel">Hagai Yehezkel</string>
+    <string name="empty_rss">Haven\'t seen RSS lately</string>
+    <string name="premissions_request">These permissions are mandatory for the application. Please allow access, or exit</string>
+    <string name="continue_txt">Continue</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="cars">Cars</string>
+    <string name="sports_n_culture"><![CDATA[Sport & Culture]]></string>
+    <string name="sports">Sports</string>
+    <string name="culture">Culture</string>
+    <string name="ok">OK</string>
+    <string name="exit">Exit</string>
+</resources>
